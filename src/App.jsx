@@ -16,6 +16,7 @@ import Clients from "./Clients";
 import Involve from "./involve";
 import Mentor from "./mentor";
 import ReactGA from "react-ga";
+import { HashRouter } from "react-router-dom";
 
 const trackingID = "G-1LTKL92188";
 ReactGA.initialize(trackingID);
