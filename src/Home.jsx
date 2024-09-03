@@ -8,6 +8,7 @@ import PartyV from "./images/PartyV.png";
 import FishV from "./images/FishV.png";
 import Bar from "./images/bar.png";
 import ReactGA from "react-ga";
+import { Link } from "react-router-dom";
 
 import {
   motion,
