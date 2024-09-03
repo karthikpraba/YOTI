@@ -97,7 +97,7 @@ export default function Home() {
               // Adjust positioning as needed
             />
             <li>
-              <a href="/home">Home</a>
+              <Link to={Home}>Home</Link>
             </li>
             <li>
               <a href="./AboutUs">About Us</a>
