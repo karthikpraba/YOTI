@@ -26,14 +26,14 @@ export default function App() {
     <HashRouter>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/home" exact component={Home} />
-        <Route path="/AboutUs" component={About} />
-        <Route path="/gala" component={Gala} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/clients" component={Clients} />
-        <Route path="/involve" component={Involve} />
-        <Route path="/mentor" component={Mentor} />
+        <Route path="home" exact component={Home} />
+        <Route path="AboutUs" component={About} />
+        <Route path="gala" component={Gala} />
+        <Route path="contact" component={Contact} />
+        <Route path="blog" component={Blog} />
+        <Route path="clients" component={Clients} />
+        <Route path="involve" component={Involve} />
+        <Route path="mentor" component={Mentor} />
       </Switch>
     </HashRouter>
   );
