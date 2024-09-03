@@ -22,7 +22,7 @@ ReactGA.initialize(trackingID);
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home} />
@@ -34,6 +34,6 @@ export default function App() {
         <Route path="/involve" component={Involve} />
         <Route path="/mentor" component={Mentor} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
