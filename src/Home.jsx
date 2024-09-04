@@ -8,7 +8,6 @@ import PartyV from "./images/PartyV.png";
 import FishV from "./images/FishV.png";
 import Bar from "./images/bar.png";
 import ReactGA from "react-ga";
-import { Link } from "react-router-dom";
 
 import {
   motion,
@@ -98,7 +97,7 @@ export default function Home() {
               // Adjust positioning as needed
             />
             <li>
-              <Link to={Home}>Home</Link>
+            <a href="./home">Home</a>
             </li>
             <li>
               <a href="./AboutUs">About Us</a>
